@@ -52,14 +52,14 @@
             <div class="bg-custom-footer-icon p-2 rounded-md mt-1"><img src="{{ asset('assets/59_116.svg') }}" alt="Email Icon" class="w-4 h-4"></div>
             <div>
               <p class="font-semibold">info@company.com</p>
-              <p class="text-gray-400">(+256) 2145.2156</p>
+              <p class="text-gray-400">(+44) 7503 491689</p>
             </div>
           </li>
           <li class="flex items-start gap-4">
             <div class="bg-custom-footer-icon p-2 rounded-md mt-1"><img src="{{ asset('assets/59_123.svg') }}" alt="Location Icon" class="w-4 h-4"></div>
             <div>
               <p class="font-semibold">Our Location</p>
-              <p class="text-gray-400">XYZ Hilton Street, 125 Town<br>United State</p>
+              <p class="text-gray-400">44, Brinkhill Crescent Clifton Nottingham <br>England NG118GN</p>
             </div>
           </li>
         </ul>
