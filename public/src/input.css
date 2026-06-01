@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS from generated content */
+/* Global CSS */
+/* Keep this area empty - use only Tailwind classes */
+/* Custom CSS should be minimal, prefer utility classes */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
