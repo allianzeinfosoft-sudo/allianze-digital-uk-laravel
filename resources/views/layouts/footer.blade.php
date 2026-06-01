@@ -45,7 +45,7 @@
             <div class="bg-custom-footer-icon p-2 rounded-md mt-1"><img src="{{ asset('assets/59_109.svg') }}" alt="Phone Icon" class="w-4 h-4"></div>
             <div>
               <p class="font-semibold">Call Us 24/7</p>
-              <p class="text-gray-400">(+256) 2145.2156</p>
+              <p class="text-gray-400">(+44) 7503 491689</p>
             </div>
           </li>
           <li class="flex items-start gap-4">
