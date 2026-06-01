@@ -3,8 +3,9 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="robots" content="noindex, nofollow">
      <title>{{ $meta_title ?? 'Allianze Digital' }} </title>
+     <meta name="description" content="{{ $meta_description ?? '' }}">
      <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
-     <meta name="keywords" content="{{ $meta_keywords ?? 'digital marketing, SEO, PPC, social media, content marketing, web design, Allianze Digital' }}">
+     <meta name="keywords" content="{{ $meta_keywords ?? '' }}">
      <link href="{{ asset('dist/output.css') }}" rel="stylesheet">
      <link href="{{ asset('dist/custom.css') }}" rel="stylesheet">
      <script src="https://cdn.tailwindcss.com"></script> 
