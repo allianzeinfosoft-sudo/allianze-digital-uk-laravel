@@ -155,7 +155,7 @@
         <div>
           <h3 class="text-xl font-bold mb-3 mt-3 text-white">Engaging Audience Experience</h3>
           <p class="text-gray-300 text-sm leading-relaxed text-justify">
-            Allianze Digital Co.UK specialises in creating explicit, relevant and valuable content that engages your audience. You get meaningful connections through our professional content writing that boost loyalty and interest.
+            Allianze Digital specialises in creating explicit, relevant and valuable content that engages your audience. You get meaningful connections through our professional content writing that boost loyalty and interest.
           </p>
         </div>
       </div>

@@ -41,7 +41,7 @@
                          </div>
 
                          <!-- Panel body: 4 columns -->
-                         <div class="grid grid-cols-4 divide-x divide-gray-100 px-0 py-2">
+                         <div class="grid grid-cols-5 divide-x divide-gray-100 px-0 py-2">
 
                               <!-- Col 1: Data Processing -->
                               <div class="px-3 py-3">
@@ -180,7 +180,33 @@
                                         App Development</a>
                               </div>
 
-                              <!-- Col 4: Digital & Creative -->
+                              <!-- Col 4: IT Services -->
+                              <div class="px-3 py-3">
+                                   <p
+                                        class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3 flex items-center gap-1.5">
+                                        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                             stroke-width="2">
+                                             <circle cx="12" cy="12" r="3" />
+                                             <path
+                                                  d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+                                        </svg>
+                                        IT Services
+                                   </p>
+                                   <a href="{{ route('software-development-service') }}"
+                                        class="flex items-center gap-2 text-[0.78rem] text-gray-600 hover:text-custom-red-brand hover:bg-red-50 px-2 py-1.5 rounded-md transition-all"><span
+                                             class="w-1.5 h-1.5 rounded-full bg-custom-red-brand/40 shrink-0"></span>Software
+                                        Development</a>
+                                   <a href="{{ route('website-development-service') }}"
+                                        class="flex items-center gap-2 text-[0.78rem] text-gray-600 hover:text-custom-red-brand hover:bg-red-50 px-2 py-1.5 rounded-md transition-all"><span
+                                             class="w-1.5 h-1.5 rounded-full bg-custom-red-brand/40 shrink-0"></span>Website
+                                        Development</a>
+                                   <a href="{{ route('web-app-development-service') }}"
+                                        class="flex items-center gap-2 text-[0.78rem] text-gray-600 hover:text-custom-red-brand hover:bg-red-50 px-2 py-1.5 rounded-md transition-all"><span
+                                             class="w-1.5 h-1.5 rounded-full bg-custom-red-brand/40 shrink-0"></span>Web
+                                        App Development</a>
+                              </div>
+
+                              <!-- Col 5: Digital & Creative -->
                               <div class="px-3 py-3">
                                    <p
                                         class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-3 flex items-center gap-1.5">

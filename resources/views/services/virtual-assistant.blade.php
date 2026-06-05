@@ -68,7 +68,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Customer Support Services</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The service involves helping customers with their enquiries, complaints, or concerns associated with products or services. The customer support service has a significant influence on building trust and loyalty. The expert virtual assistants at Allianze Digital Co.UK efficiently handle customer interactions with patience, empathy, and professionalism. Our team responds quickly and offers accurate solutions. Additionally, we make sure that we respond to every customer's queries, even if it is assisting with returns, resolving concerns, or tracking orders. We enable you to save more time and effort in growth without losing touch with the customers.
+            The service involves helping customers with their enquiries, complaints, or concerns associated with products or services. The customer support service has a significant influence on building trust and loyalty. The expert virtual assistants at Allianze Digital efficiently handle customer interactions with patience, empathy, and professionalism. Our team responds quickly and offers accurate solutions. Additionally, we make sure that we respond to every customer's queries, even if it is assisting with returns, resolving concerns, or tracking orders. We enable you to save more time and effort in growth without losing touch with the customers.
           </p>
         </div>
       </div>

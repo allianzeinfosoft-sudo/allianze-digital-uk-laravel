@@ -108,7 +108,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">On-Page SEO</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            It is the process of making your website pages easy for both users and search engines to understand. At Allianze Digital Co.UK, the experienced SEO company, our SEO experts manage things such as title tags, meta descriptions, headers, internal linking, and keyword placement. Leveraging our service helps you get clearer, cleaner, and more useful content. We make small changes to get you greater results, and it contributes to better rankings, longer visits, and more clicks. Our experienced and professional SEO team makes sure you gain more traffic by ensuring every page on your site is working.
+            It is the process of making your website pages easy for both users and search engines to understand. At Allianze Digital, the experienced SEO company, our SEO experts manage things such as title tags, meta descriptions, headers, internal linking, and keyword placement. Leveraging our service helps you get clearer, cleaner, and more useful content. We make small changes to get you greater results, and it contributes to better rankings, longer visits, and more clicks. Our experienced and professional SEO team makes sure you gain more traffic by ensuring every page on your site is working.
           </p>
         </div>
       </div>
@@ -121,7 +121,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Off-Page SEO</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            Leveraging Off-page SEO develops the trust and authority of your website outside of your own pages. We focus on quality backlinks, content sharing, and mentions from reliable sources. At Allianze Digital Co.UK, we do not buy links or chase spammy tactics. Rather than that, we assist you in getting links the right way. This enables you to increase your reputation in the eyes of search engines, making it effortless for your site to rank. Eventually, this gives you more organic traffic and domain strength.
+            Leveraging Off-page SEO develops the trust and authority of your website outside of your own pages. We focus on quality backlinks, content sharing, and mentions from reliable sources. At Allianze Digital, we do not buy links or chase spammy tactics. Rather than that, we assist you in getting links the right way. This enables you to increase your reputation in the eyes of search engines, making it effortless for your site to rank. Eventually, this gives you more organic traffic and domain strength.
           </p>
         </div>
       </div>

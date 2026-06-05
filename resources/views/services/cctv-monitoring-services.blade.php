@@ -70,7 +70,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Video Surveillance and Monitoring</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            Video Surveillance and Monitoring is the process of observing live footage from CCTV to identify any fraudulent activities, guarantee safety, and provide real-time alerts. At Allianze Digital Co.UK, our experts actively monitor the cameras every time. We monitor from every angle to detect unusual activities at the moment they happen. In addition to these, we assist in preventing further problems by enabling you to take prompt actions with real-time alerts as the incident happens. Our video surveillance and monitoring service is accurate and completely reliable.
+            Video Surveillance and Monitoring is the process of observing live footage from CCTV to identify any fraudulent activities, guarantee safety, and provide real-time alerts. At Allianze Digital, our experts actively monitor the cameras every time. We monitor from every angle to detect unusual activities at the moment they happen. In addition to these, we assist in preventing further problems by enabling you to take prompt actions with real-time alerts as the incident happens. Our video surveillance and monitoring service is accurate and completely reliable.
           </p>
         </div>
       </div>
@@ -136,7 +136,7 @@
         <div>
           <h3 class="text-xl font-bold mb-3 mt-3 text-white">UK-Based with Global Reach</h3>
           <p class="text-gray-300 text-sm leading-relaxed text-justify">
-            As one of the best remote CCTV monitoring BPO services in UK, our team possesses a deep understanding of local regulations, privacy requirements, and industry standards. Allianze Digital Co.UK manages both international and UK-based clients with equal dedication. Additionally, we offer high-quality, compliant services tailored to your specific business requirements.
+            As one of the best remote CCTV monitoring BPO services in UK, our team possesses a deep understanding of local regulations, privacy requirements, and industry standards. Allianze Digital manages both international and UK-based clients with equal dedication. Additionally, we offer high-quality, compliant services tailored to your specific business requirements.
           </p>
         </div>
       </div>
@@ -147,7 +147,7 @@
         <div>
           <h3 class="text-xl font-bold mb-3 mt-3 text-white">Round-the-Clock Monitoring</h3>
           <p class="text-gray-300 text-sm leading-relaxed text-justify">
-            At Allianze Digital Co.UK, we offer seamless 24/7 monitoring services, making sure that every camera is actively monitored at all times. Our team never depends on automation alone; our real-time human surveillance instantly identifies issues. This enables you to focus on your key strategies while we take care of your premises 24/7.
+            At Allianze Digital, we offer seamless 24/7 monitoring services, making sure that every camera is actively monitored at all times. Our team never depends on automation alone; our real-time human surveillance instantly identifies issues. This enables you to focus on your key strategies while we take care of your premises 24/7.
           </p>
         </div>
       </div>
@@ -199,7 +199,7 @@
         <h2 class="text-xl md:text-2xl font-bold text-custom-blue-dark max-w-4xl text-center md:text-left">
           Let us handle the watching, so you can run your business without worry. Experience the benefits of partnering with the best remote CCTV monitoring BPO services in UK. 
         </h2>
-        <a href="contact-us.html" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
+        <a href="/contact-us" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
       </div>
     </div>
   </div>

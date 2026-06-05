@@ -68,7 +68,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Insurance Claim Processing</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            Insurance claim processing involves the management of each step in a claim, such as data collection, verification, data entry, tracking & updates, and error reduction. The service guarantees accurate payouts and appropriate documentation for insurers and clients. At Allianze Digital Co.UK, the best insurance claim data processing service in UK, we have professionals who can ensure that all the necessary data is correct, complete, and properly completed. We adjust our workflow to align with your internal processes, and we are equipped to manage diverse kinds of claims, such as motor, life, health, and property. Our insurance claim processing service examines discrepancies, follows up on missing data, and updates progress immediately and thereby helping in mitigating claim cycle time and ensuring quick resolutions.
+            Insurance claim processing involves the management of each step in a claim, such as data collection, verification, data entry, tracking & updates, and error reduction. The service guarantees accurate payouts and appropriate documentation for insurers and clients. At Allianze Digital, the best insurance claim data processing service in UK, we have professionals who can ensure that all the necessary data is correct, complete, and properly completed. We adjust our workflow to align with your internal processes, and we are equipped to manage diverse kinds of claims, such as motor, life, health, and property. Our insurance claim processing service examines discrepancies, follows up on missing data, and updates progress immediately and thereby helping in mitigating claim cycle time and ensuring quick resolutions.
           </p>
         </div>
       </div>
@@ -107,7 +107,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Policy Administration</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The process of managing the complete lifecycle of an insurance policy is known as policy administration. At Allianze Digital Co.UK, we ensure accurate data entry, prompt notifications, and maintain structured records to guarantee seamless operations, regulatory compliance, and consistent service for both insurers and policyholders. Allianze Digital Co.UK securely stores policy files, maintains version control, and makes them accessible whenever they are required. We offer seamless back-office support that helps you in enhancing customer satisfaction, minimising manual tasks, and avoiding service delays by offering seamless back-office support.
+            The process of managing the complete lifecycle of an insurance policy is known as policy administration. At Allianze Digital, we ensure accurate data entry, prompt notifications, and maintain structured records to guarantee seamless operations, regulatory compliance, and consistent service for both insurers and policyholders. Allianze Digital securely stores policy files, maintains version control, and makes them accessible whenever they are required. We offer seamless back-office support that helps you in enhancing customer satisfaction, minimising manual tasks, and avoiding service delays by offering seamless back-office support.
           </p>
         </div>
       </div>
@@ -134,7 +134,7 @@
         <div>
           <h3 class="text-xl font-bold mb-3 mt-3 text-white">Accuracy You Can Rely On</h3>
           <p class="text-gray-300 text-sm leading-relaxed text-justify">
-            Allianze Digital Co.UK, as the best insurance claim data processing service in UK, give prime importance to accuracy. We follow meticulous checks at each stage, such as inputting client details, updating policy records, or managing sensitive risk files. We minimise the chance of errors and reworks by blending double-verification methods with trained experts.
+            Allianze Digital, as the best insurance claim data processing service in UK, give prime importance to accuracy. We follow meticulous checks at each stage, such as inputting client details, updating policy records, or managing sensitive risk files. We minimise the chance of errors and reworks by blending double-verification methods with trained experts.
           </p>
         </div>
       </div>
@@ -156,7 +156,7 @@
         <div>
           <h3 class="text-xl font-bold mb-3 mt-3 text-white">Built to Scale With Your Business</h3>
           <p class="text-gray-300 text-sm leading-relaxed text-justify">
-            The insurance data processing service at Allianze Digital Co.UK is built to support businesses of every size. Even if you are handling a small number of claims per week or processing thousands each month, we can assist you efficiently. Moreover, our service scales with your business. Without compromising on quality, we modify our team capacity, turnaround times and tools to fulfil the rising demand.
+            The insurance data processing service at Allianze Digital is built to support businesses of every size. Even if you are handling a small number of claims per week or processing thousands each month, we can assist you efficiently. Moreover, our service scales with your business. Without compromising on quality, we modify our team capacity, turnaround times and tools to fulfil the rising demand.
           </p>
         </div>
       </div>
@@ -194,7 +194,7 @@
     <div class="bg-custom-blue-light md:rounded-full rounded-2xl p-4 md:p-8 bg-blend-lighten bg-cover bg-center" style="background-image: url('{{ asset('assets/9efd5264bd0bfb5085bf24e8b6997c95fe61a020.png') }}'); background-color: rgba(217, 228, 255, 0.8);">
       <div class="flex flex-col md:flex-row justify-between items-center gap-6">
         <h2 class="text-2xl md:text-3xl font-bold text-custom-blue-dark max-w-4xl text-center md:text-left">
-          Ready to streamline your insurance data processing? Connect with Allianze Digital Co.UK today! 
+          Ready to streamline your insurance data processing? Connect with Allianze Digital today! 
         </h2>
         <a href="{{ route('contact-us') }}" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
       </div>

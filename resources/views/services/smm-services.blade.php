@@ -67,7 +67,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Social Media Account Audit</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The detailed analysis of the current social media presence of your business is referred to as a social media account audit. Allianze Digital Co.UK transcends surface-level checks. Our experts carefully observe your branding, posting habits, content quality, follower engagements, account settings, and bio details to find out what is working and the obstacles you face. As the best social media marketing agency in UK, we maximise these insights into a clear action plan. Our audit assists businesses in preventing guesswork and building robust foundation for future campaigns. We make sure your channels are consistent, clean, and all set to perform, even if you are managing multiple accounts or just beginning. Having better support from a reliable marketing agency helps you make a real impact on your business.
+            The detailed analysis of the current social media presence of your business is referred to as a social media account audit. Allianze Digital transcends surface-level checks. Our experts carefully observe your branding, posting habits, content quality, follower engagements, account settings, and bio details to find out what is working and the obstacles you face. As the best social media marketing agency in UK, we maximise these insights into a clear action plan. Our audit assists businesses in preventing guesswork and building robust foundation for future campaigns. We make sure your channels are consistent, clean, and all set to perform, even if you are managing multiple accounts or just beginning. Having better support from a reliable marketing agency helps you make a real impact on your business.
           </p>
         </div>
       </div>
@@ -80,7 +80,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Social Media Strategy</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            It is the strategy for maximising the most of each platform. The strategy outlines the things to post, and the date to be posted, who you are speaking to, and what you want to attain. At Allianze Digital Co.UK, the best social media marketing agency in UK, we make customized strategies to align with your brand's voice and your business goals. Our SMM experts develop authentic relationships with their followers and build constant communities. Associate with the best social media marketing agency in UK to stay significant, results-driven, and consistent.
+            It is the strategy for maximising the most of each platform. The strategy outlines the things to post, and the date to be posted, who you are speaking to, and what you want to attain. At Allianze Digital, the best social media marketing agency in UK, we make customized strategies to align with your brand's voice and your business goals. Our SMM experts develop authentic relationships with their followers and build constant communities. Associate with the best social media marketing agency in UK to stay significant, results-driven, and consistent.
           </p>
         </div>
       </div>
@@ -93,7 +93,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Social Media Advertising</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            Social Media Marketing service enables businesses to reach the target audience at the right time. Different from organic posts, paid campaigns aim at specific audiences on the basis of age, location, interests, and online behavior. Allianze Digital CO.UK plans and runs ads that get noticed and converted. As a seasoned and professional marketing agency, we know how to maintain performance and creativity at the right balance. We create ads that meet your goals, including raising brand awareness, driving sales, and promoting a product. Our team seamlessly tracks results and modifies them for better impact.
+            Social Media Marketing service enables businesses to reach the target audience at the right time. Different from organic posts, paid campaigns aim at specific audiences on the basis of age, location, interests, and online behavior. Allianze Digital plans and runs ads that get noticed and converted. As a seasoned and professional marketing agency, we know how to maintain performance and creativity at the right balance. We create ads that meet your goals, including raising brand awareness, driving sales, and promoting a product. Our team seamlessly tracks results and modifies them for better impact.
           </p>
         </div>
       </div>
@@ -122,7 +122,7 @@
         Why Us
       </span>
       <h2 class="text-3xl md:text-4xl mt-4 font-bold text-white">
-        Why Allianze Digital Co.UK is the Preferred Choice for SMM Services in the UK?
+        Why Allianze Digital is the Preferred Choice for SMM Services in the UK?
       </h2>
     </div>
 

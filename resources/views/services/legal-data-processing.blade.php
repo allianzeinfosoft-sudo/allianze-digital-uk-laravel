@@ -69,7 +69,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Legal Data Collection</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            Legal Data collection is the process of gathering, extracting and structuring significant data gained from legal documents. These documents may include contracts, case files, compliance records and court filings. At Allianze Digital Co.UK, we have a professional team specialising in legal data collection from a diverse range of legal documents. We offer services that completely agree with UK data protection standards, prioritising client confidentiality and accuracy at each stage. Our team makes use of customised templates and checklists to minimise manual input errors as well as to maintain consistency in data formats. Also, we verify entries against source materials to ensure consistency. Our legal data entry service empowers lawyers and legal professionals with immediately applicable, organised datasets you can rely on.     
+            Legal Data collection is the process of gathering, extracting and structuring significant data gained from legal documents. These documents may include contracts, case files, compliance records and court filings. At Allianze Digital, we have a professional team specialising in legal data collection from a diverse range of legal documents. We offer services that completely agree with UK data protection standards, prioritising client confidentiality and accuracy at each stage. Our team makes use of customised templates and checklists to minimise manual input errors as well as to maintain consistency in data formats. Also, we verify entries against source materials to ensure consistency. Our legal data entry service empowers lawyers and legal professionals with immediately applicable, organised datasets you can rely on.     
           </p>
         </div>
       </div>
@@ -82,7 +82,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Legal Proofreading</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The legal proofreading service provided by Allianze Digital Co.UK, consists of the meticulous analysis of legal documents to identify any errors, such as spelling, grammar, punctuation, and formatting, and to rectify them accordingly. The experts we house carefully proofread contracts, regulatory filings, internal documentation, and legal drafts to ensure every detail is accurate and aligns with legal conventions. We offer an expert team professionally trained in legal style guides and jurisdiction-specific norms. Our service maintains version control and provides tracked changes for client review. The legal proofreading service aids in retaining clarity, professionalism, and compliance before court submissions, external audits, or client delivery. This ensures your legal documents are refined and authentic. 
+            The legal proofreading service provided by Allianze Digital, consists of the meticulous analysis of legal documents to identify any errors, such as spelling, grammar, punctuation, and formatting, and to rectify them accordingly. The experts we house carefully proofread contracts, regulatory filings, internal documentation, and legal drafts to ensure every detail is accurate and aligns with legal conventions. We offer an expert team professionally trained in legal style guides and jurisdiction-specific norms. Our service maintains version control and provides tracked changes for client review. The legal proofreading service aids in retaining clarity, professionalism, and compliance before court submissions, external audits, or client delivery. This ensures your legal documents are refined and authentic. 
           </p>
         </div>
       </div>
@@ -193,7 +193,7 @@
   <div class="max-w-7xl mx-auto px-4">
     <div class="bg-custom-blue-light md:rounded-full rounded-2xl p-4 md:p-8 bg-blend-lighten bg-cover bg-center" style="background-image: url('{{ asset('assets/9efd5264bd0bfb5085bf24e8b6997c95fe61a020.png') }}'); background-color: rgba(217, 228, 255, 0.8);">
       <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-        <h2 class="text-2xl md:text-3xl font-bold text-custom-blue-dark max-w-4xl text-center md:text-left">Get accurate and reliable, and best legal data processing services in UK with Allianze Digital CO.UK.</h2>
+        <h2 class="text-2xl md:text-3xl font-bold text-custom-blue-dark max-w-4xl text-center md:text-left">Get accurate and reliable, and best legal data processing services in UK with Allianze Digital.</h2>
         <a href="{{ route('contact-us') }}" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
       </div>
     </div>

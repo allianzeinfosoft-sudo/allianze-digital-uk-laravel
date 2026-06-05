@@ -15,7 +15,7 @@
           <p class="text-white text-base sm:text-lg md:text-xl mb-6 md:mb-8 [text-shadow:1px_5px_5px_rgba(0,0,0,0.7)]">
             Let Us Handle Your Healthcare Data, So You Can Focus on Patient Care
           </p>          
-          <a href="contact-us.html" class="inline-block bg-[#d80000] text-white px-6 sm:px-8 md:px-10 py-2.5 md:py-3 rounded-lg font-medium hover:bg-red-700 transition shadow-lg">
+          <a href="/contact-us" class="inline-block bg-[#d80000] text-white px-6 sm:px-8 md:px-10 py-2.5 md:py-3 rounded-lg font-medium hover:bg-red-700 transition shadow-lg">
             Contact Us
           </a>
         </div>
@@ -198,7 +198,7 @@
         <h2 class="text-2xl md:text-3xl font-bold text-custom-blue-dark max-w-4xl text-center md:text-left">
           Ready to Simplify Your Healthcare Data with the best healthcare data processing services in UK? Get in touch with our Allianze Digital.
         </h2>
-        <a href="contact-us.html" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
+        <a href="/contact-us" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
       </div>
     </div>
   </div>

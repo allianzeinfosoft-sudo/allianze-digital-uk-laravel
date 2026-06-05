@@ -6,12 +6,20 @@
         <div class="flex items-center gap-3">
           <img src="{{ asset('assets/logo-white.png') }}" alt="Logo icon" class="w-20 h-20">
         </div>
-        <p class="text-gray-400 mt-6 text-sm leading-relaxed">Felis consquat magnis fames sagittis ultrices plasodales porttitor quisque ultrice tempor turpis.</p>
+        <p class="text-gray-400 mt-6 text-sm leading-relaxed">Felis consquat magnis fames sagittis ultrices plasodales
+          porttitor quisque ultrice tempor turpis.</p>
         <div class="flex space-x-3 mt-6">
-          <a href="#" class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_57.svg') }}" alt="Social Icon 1" class="w-4 h-4"></a>
-          <a href="#" class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_60.svg') }}" alt="Social Icon 2" class="w-4 h-4"></a>
-          <a href="#" class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_63.svg') }}" alt="Social Icon 3" class="w-4 h-4"></a>
-          <a href="#" class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_66.svg') }}" alt="Social Icon 4" class="w-4 h-4"></a>
+          <a href="https://www.facebook.com/allianzedigital"
+            class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_57.svg') }}"
+              alt="Social Icon 1" class="w-4 h-4"></a>
+          <a href="https://x.com/AllianzeDigital" class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img
+              src="{{ asset('assets/59_60.svg') }}" alt="Social Icon 2" class="w-4 h-4"></a>
+          <a href="https://www.instagram.com/allianzedigital5/"
+            class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_63.svg') }}"
+              alt="Social Icon 3" class="w-4 h-4"></a>
+          <a href="https://www.linkedin.com/company/110878512/admin/dashboard/"
+            class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_66.svg') }}"
+              alt="Social Icon 4" class="w-4 h-4"></a>
         </div>
       </div>
       <!-- Column 2: Services -->
@@ -20,9 +28,12 @@
         <div class="w-10 h-0.5 bg-white mt-2 mb-4"></div>
         <ul class="space-y-3">
           <li><a href="{{ route('seo-services') }}" class="text-gray-400 hover:text-white">SEO Services</a></li>
-          <li><a href="{{ route('software-development-service') }}" class="text-gray-400 hover:text-white">Software Development</a></li>
-          <li><a href="{{ route('process-optimization') }}" class="text-gray-400 hover:text-white">Process Optimisation</a></li>
-          <li><a href="{{ route('scanning-and-indexing') }}" class="text-gray-400 hover:text-white">Scanning and Indexing</a></li>
+          <li><a href="{{ route('software-development-service') }}" class="text-gray-400 hover:text-white">Software
+              Development</a></li>
+          <li><a href="{{ route('process-optimization') }}" class="text-gray-400 hover:text-white">Process
+              Optimisation</a></li>
+          <li><a href="{{ route('scanning-and-indexing') }}" class="text-gray-400 hover:text-white">Scanning and
+              Indexing</a></li>
         </ul>
       </div>
       <!-- Column 3: Quick Links -->
@@ -42,21 +53,24 @@
         <div class="w-10 h-0.5 bg-white mt-2 mb-4"></div>
         <ul class="space-y-5">
           <li class="flex items-start gap-4">
-            <div class="bg-custom-footer-icon p-2 rounded-md mt-1"><img src="{{ asset('assets/59_109.svg') }}" alt="Phone Icon" class="w-4 h-4"></div>
+            <div class="bg-custom-footer-icon p-2 rounded-md mt-1"><img src="{{ asset('assets/59_109.svg') }}"
+                alt="Phone Icon" class="w-4 h-4"></div>
             <div>
               <p class="font-semibold">Call Us 24/7</p>
               <p class="text-gray-400">(+44) 7503 491689</p>
             </div>
           </li>
           <li class="flex items-start gap-4">
-            <div class="bg-custom-footer-icon p-2 rounded-md mt-1"><img src="{{ asset('assets/59_116.svg') }}" alt="Email Icon" class="w-4 h-4"></div>
+            <div class="bg-custom-footer-icon p-2 rounded-md mt-1 flex justify-center"><img
+                src="{{ asset('assets/59_116.svg') }}" alt="Email Icon" class="w-4 h-4"></div>
             <div>
-              <p class="font-semibold">info@company.com</p>
-              <p class="text-gray-400">(+44) 7503 491689</p>
+              <p class="font-semibold">info@allianzedigital.co.uk</p>
+              <p class="font-semibold">support@allianzedigital.co.uk</p>
             </div>
           </li>
           <li class="flex items-start gap-4">
-            <div class="bg-custom-footer-icon p-2 rounded-md mt-1"><img src="{{ asset('assets/59_123.svg') }}" alt="Location Icon" class="w-4 h-4"></div>
+            <div class="bg-custom-footer-icon p-2 rounded-md mt-1"><img src="{{ asset('assets/59_123.svg') }}"
+                alt="Location Icon" class="w-4 h-4"></div>
             <div>
               <p class="font-semibold">Our Location</p>
               <p class="text-gray-400">44, Brinkhill Crescent Clifton Nottingham <br>England NG118GN</p>

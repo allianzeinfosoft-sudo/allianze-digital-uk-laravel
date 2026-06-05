@@ -68,7 +68,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Invoice Data Processing</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The process of accurately capturing, validating and structuring freight and shipping invoice details to ensure accurate billing, prompt payments and seamless financial coordination between carriers and clients. At Allianze Digital Co.UK, our experts handle your freight and transport invoices with accuracy. Our invoice data processing involves data entry, detailed verification, and document classification. We ensure there are no duplications or errors and align invoices with the purchase order to ensure accurate payment.
+            The process of accurately capturing, validating and structuring freight and shipping invoice details to ensure accurate billing, prompt payments and seamless financial coordination between carriers and clients. At Allianze Digital, our experts handle your freight and transport invoices with accuracy. Our invoice data processing involves data entry, detailed verification, and document classification. We ensure there are no duplications or errors and align invoices with the purchase order to ensure accurate payment.
           </p>
         </div>
       </div>
@@ -94,7 +94,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Bill of Lading Processing Services</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The process of extracting, verifying and categorising shipment data from transport documents is referred to as Bill of Lading (BOL) processing. These details may consist of cargo descriptions, consignee data, and delivery terms. Through accurate BOL Allianze Digital Co.UK facilitates seamless customer clearance, prevents delays and supports legal compliance. Our professionals confirm the completeness of each entry and make sure that terms match across every carrier documentation. Additionally, we categorise these records for custom checks and audit requirements. By doing so, the clients can reduce clearance delays and prevent disputes at delivering points and facilitate faster goods movements.
+            The process of extracting, verifying and categorising shipment data from transport documents is referred to as Bill of Lading (BOL) processing. These details may consist of cargo descriptions, consignee data, and delivery terms. Through accurate BOL Allianze Digital facilitates seamless customer clearance, prevents delays and supports legal compliance. Our professionals confirm the completeness of each entry and make sure that terms match across every carrier documentation. Additionally, we categorise these records for custom checks and audit requirements. By doing so, the clients can reduce clearance delays and prevent disputes at delivering points and facilitate faster goods movements.
           </p>
         </div>
       </div>
@@ -156,7 +156,7 @@
         <div>
           <h3 class="text-xl font-bold mb-3 mt-3 text-white">Scalable Service, No Matter Your Volume</h3>
           <p class="text-gray-300 text-sm leading-relaxed text-justify">
-            The logistics industry undergoes quick changes. The logistics data processing service at Allianze Digital Co.UK has the potential to scale according to your workload, even if your volumes are steady or seasonal. While maintaining accuracy and timelines, we ramp up or down with our flexible support model.
+            The logistics industry undergoes quick changes. The logistics data processing service at Allianze Digital has the potential to scale according to your workload, even if your volumes are steady or seasonal. While maintaining accuracy and timelines, we ramp up or down with our flexible support model.
           </p>
         </div>
       </div>
@@ -167,7 +167,7 @@
         <div>
           <h3 class="text-xl font-bold mb-3 mt-3 text-white">Secure and Compliant Handling</h3>
           <p class="text-gray-300 text-sm leading-relaxed text-justify">
-            Allianze Digital Co.UK gives utmost importance to data security and compliance. Therefore, we handle our clients' data with meticulous attention to privacy and compliance. We manage every file, document, and record under UK data protection standards. Our supply chain data management service makes sure that your business and your client's data stay secure and safe with our access controls to file encryption, and regular audits.
+            Allianze Digital gives utmost importance to data security and compliance. Therefore, we handle our clients' data with meticulous attention to privacy and compliance. We manage every file, document, and record under UK data protection standards. Our supply chain data management service makes sure that your business and your client's data stay secure and safe with our access controls to file encryption, and regular audits.
           </p>
         </div>
       </div>      
@@ -179,10 +179,10 @@
 <section id="seo-content" class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 text-center">   
     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-      Allianze Digital Co.UK - Where Accuracy Meets Practical Help
+      Allianze Digital - Where Accuracy Meets Practical Help
     </h2>
     <p class="text-gray-600 leading-relaxed text-justify ">
-      Logistics operations rely on authentic, accurate, and accessible data. Our experts at Allianze Digital Co.UK know that clearly. We help you stay on top of admin tasks and focus on your logistics goals, even if you are arranging shipments, updating records, or reviewing delivery performance. By hiring the best logistics, supply chain data processing services in UK, you don't have to waste time looking for errors or missing updates. With Allianze Digital Co.UK, your logistics business works faster and stays compliant.
+      Logistics operations rely on authentic, accurate, and accessible data. Our experts at Allianze Digital know that clearly. We help you stay on top of admin tasks and focus on your logistics goals, even if you are arranging shipments, updating records, or reviewing delivery performance. By hiring the best logistics, supply chain data processing services in UK, you don't have to waste time looking for errors or missing updates. With Allianze Digital, your logistics business works faster and stays compliant.
     </p>
   </div>
 </section>
@@ -197,7 +197,7 @@
         <h2 class="text-2xl md:text-3xl font-bold text-custom-blue-dark max-w-4xl text-center md:text-left">
           Let us handle your logistics data processing, so you can focus on your core strategies. Connect with us now!
         </h2>
-        <a href="contact-us.html" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
+        <a href="/contact-us" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
       </div>
     </div>
   </div>

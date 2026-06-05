@@ -69,7 +69,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Electronic Document Management Service</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The service involves assisting businesses in storing, organising, and accessing their documents digitally. This digital strategy substitutes paper files with searchable digital versions, making handling files quicker, safer, and more efficient. At Allianze Digital Co.UK, our experts provide continuous support for establishing a simplified electronic document system. We scan, index, and organise your documents to make access effortless whenever they are required. With these, you can search with keywords, dates, or file types. Also, we make sure there is proper file naming and folder structure for long-term use. Availing our service helps you avoid wasting time on digging through boxes or cabinets.
+            The service involves assisting businesses in storing, organising, and accessing their documents digitally. This digital strategy substitutes paper files with searchable digital versions, making handling files quicker, safer, and more efficient. At Allianze Digital, our experts provide continuous support for establishing a simplified electronic document system. We scan, index, and organise your documents to make access effortless whenever they are required. With these, you can search with keywords, dates, or file types. Also, we make sure there is proper file naming and folder structure for long-term use. Availing our service helps you avoid wasting time on digging through boxes or cabinets.
           </p>
         </div>
       </div>
@@ -98,7 +98,7 @@
         Why Us
       </span>
       <h2 class="text-3xl md:text-4xl mt-4 font-bold text-white">
-        Why Allianze Digital Co.UK is Your Ideal Choice?
+        Why Allianze Digital is Your Ideal Choice?
       </h2>
     </div>
 
