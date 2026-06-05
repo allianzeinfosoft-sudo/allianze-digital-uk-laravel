@@ -37,7 +37,7 @@
           Count on us to deliver more value — from data processing to digital transformation.
         </p>
         <div class="mt-9 flex flex-wrap gap-3">
-          <a href="#"
+          <a href="/contact-us"
             class="inline-block bg-[#e63329] text-white px-9 py-4 rounded-2xl text-base font-bold hover:bg-red-700 transition-colors shadow-lg shadow-red-900/30">Join
             Us</a>
         </div>
