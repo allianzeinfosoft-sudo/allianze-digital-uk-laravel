@@ -8,9 +8,11 @@
      <meta name="keywords" content="{{ $meta_keywords ?? '' }}">
      <link href="{{ asset('dist/output.css') }}" rel="stylesheet">
      <link href="{{ asset('dist/custom.css') }}" rel="stylesheet">
+     <link rel="preload" href="{{ asset('assets/logo-black.png') }}" as="image">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
      <script src="https://cdn.tailwindcss.com"></script> 
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+     
 
      <script>
           tailwind.config = {
