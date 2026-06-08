@@ -1,6 +1,6 @@
 @extends('layouts/app')
 
-@include('layouts.navbar')
+
 
 @section('content')
     <!-- Hero Section -->

@@ -261,6 +261,7 @@
 
 
     <div id="page-content" style="display:none;">
+        @include('layouts.navbar')
         @yield('content')
         @include('layouts.footer')
     </div>

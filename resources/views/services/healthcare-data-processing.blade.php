@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@include('layouts.navbar')
+
 
 @section('content')
     <section class="py-2 bg-white pb-10">

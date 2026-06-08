@@ -1,7 +1,5 @@
 @extends('layouts/app')
 
-@include('layouts/navbar')
-
 @section('content')
   <!-- Hero Section -->
   <section class="py-2 bg-white pb-10 mt-[-7rem]">

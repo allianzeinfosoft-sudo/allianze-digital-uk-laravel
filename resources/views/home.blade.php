@@ -6,7 +6,7 @@
   style="background-image: url('{{ asset('assets/13eb3cb4eda05f25595b11eca2194127b70aafde.png') }}');">
   <div class="absolute inset-0 bg-black/10"></div>
   <!-- Header -->
-  @include('layouts.navbar')
+  
 </section>
 <!-- ========== HERO SLIDER ========== -->
 <section class="relative w-full overflow-hidden" style="min-height:920px;">
