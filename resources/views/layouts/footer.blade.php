@@ -6,8 +6,9 @@
         <div class="flex items-center gap-3">
           <img src="{{ asset('assets/logo-white.png') }}" alt="Logo icon" class="w-20 h-20">
         </div>
-        <p class="text-gray-400 mt-6 text-sm leading-relaxed">Felis consquat magnis fames sagittis ultrices plasodales
-          porttitor quisque ultrice tempor turpis.</p>
+        <p class="text-gray-400 mt-6 text-sm leading-relaxed">A reliable BPO services in the UK, offering data
+          management, back-office support, document processing, and business outsourcing solutions tailored to modern
+          business needs.</p>
         <div class="flex space-x-3 mt-6">
           <a href="https://www.facebook.com/allianzedigital"
             class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_57.svg') }}"
@@ -17,7 +18,7 @@
           <a href="https://www.instagram.com/allianzedigital5/"
             class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_63.svg') }}"
               alt="Social Icon 3" class="w-4 h-4"></a>
-          <a href="https://www.linkedin.com/company/110878512/admin/dashboard/"
+          <a href="https://www.linkedin.com/company/allianze-digital/"
             class="bg-custom-footer-icon p-2.5 rounded-md hover:bg-gray-600"><img src="{{ asset('assets/59_66.svg') }}"
               alt="Social Icon 4" class="w-4 h-4"></a>
         </div>
