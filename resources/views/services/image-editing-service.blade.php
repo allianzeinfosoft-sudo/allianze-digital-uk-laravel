@@ -210,7 +210,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Portrait Services</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The portrait editing service provided by Allianze Digital Co. UK aims to enhance features, such as improving lighting and refining the overall look, while maintaining authenticity and accuracy for the individual. Our experts correct small flaws with a meticulous touch, smooth skin, and adjust tones, constantly aiming for a natural and flattering finish.
+            The portrait editing service provided by Allianze Digital aims to enhance features, such as improving lighting and refining the overall look, while maintaining authenticity and accuracy for the individual. Our experts correct small flaws with a meticulous touch, smooth skin, and adjust tones, constantly aiming for a natural and flattering finish.
           </p>
         </div>
       </div>

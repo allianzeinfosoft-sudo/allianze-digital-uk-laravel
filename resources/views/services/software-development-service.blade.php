@@ -67,7 +67,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">UI/UX Design Service</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            The UI/UX Design service involves the process of designing and functioning of a website. The User Interface or UI focuses on colours, buttons, and layouts of the website. Meanwhile, User Experience or UX refers to how a person feels and enjoys a website, app, or any digital product. At Allianze Digital CO. UK we not only make interfaces that seem nice, but also design experiences that work. Our UI/UX experts focus on clarity and user comfort, whether you are developing a mobile app, internal dashboard or website. This leads to more engagement, fewer drop-offs, and a system your users actually enjoy using.
+            The UI/UX Design service involves the process of designing and functioning of a website. The User Interface or UI focuses on colours, buttons, and layouts of the website. Meanwhile, User Experience or UX refers to how a person feels and enjoys a website, app, or any digital product. At Allianze Digital we not only make interfaces that seem nice, but also design experiences that work. Our UI/UX experts focus on clarity and user comfort, whether you are developing a mobile app, internal dashboard or website. This leads to more engagement, fewer drop-offs, and a system your users actually enjoy using.
           </p>
         </div>
       </div>

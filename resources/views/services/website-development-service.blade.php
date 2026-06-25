@@ -93,7 +93,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Dynamic Website Development Service</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            Creating websites that interact with users in real-time and display different content. Different from static sites, dynamic websites retrieve data from databases, enabling features such as login systems, dashboards, and product listings. The dynamic websites we craft respond to your users' actions, data inputs, and preferences. We design with function and flexibility in mind, whether it is a customer portal, interactive dashboard, or product filter. Partnering with the best company for web development, like Allianze Digital Co. UK, means attaining visuals as well as performance. We deliver digital experiences both meaningful and manageable through our best custom web development service in UK.
+            Creating websites that interact with users in real-time and display different content. Different from static sites, dynamic websites retrieve data from databases, enabling features such as login systems, dashboards, and product listings. The dynamic websites we craft respond to your users' actions, data inputs, and preferences. We design with function and flexibility in mind, whether it is a customer portal, interactive dashboard, or product filter. Partnering with the best company for web development, like Allianze Digital, means attaining visuals as well as performance. We deliver digital experiences both meaningful and manageable through our best custom web development service in UK.
           </p>
         </div>
       </div>
@@ -203,7 +203,7 @@
     <div class="bg-custom-blue-light md:rounded-full rounded-2xl p-4 md:p-8 bg-blend-lighten bg-cover bg-center" style="background-image: url('{{ asset('assets/9efd5264bd0bfb5085bf24e8b6997c95fe61a020.png') }}'); background-color: rgba(217, 228, 255, 0.8);">
       <div class="flex flex-col md:flex-row justify-between items-center gap-6">
         <h2 class="text-xl md:text-2xl font-bold text-custom-blue-dark max-w-4xl text-center md:text-left">
-          If you are looking for more than just a website, something that grows with you, Allianze Digital CO. UK is ready to build it right. Connect with us now!
+          If you are looking for more than just a website, something that grows with you, Allianze Digital is ready to build it right. Connect with us now!
         </h2>
         <a href="{{ route('contact-us') }}" class="flex-shrink-0 w-40 h-40 bg-custom-red-dark rounded-full flex items-center justify-center text-white font-bold text-center text-lg leading-tight shadow-2xl hover:bg-red-700 transition-transform transform hover:scale-105">Get Started</a>
       </div>

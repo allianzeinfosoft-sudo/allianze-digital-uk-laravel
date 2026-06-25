@@ -80,7 +80,7 @@
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Medical Coding and Billing</h3>
           <p class="text-gray-600 leading-relaxed text-justify">
-            It entails allocating standard codes to diagnoses and treatments, then employing those codes to create and submit insurance claims. This makes sure that healthcare providers attain precise and timely payments. An error in the billing and coding can result in payment delays and compliance issues. Our coding and billing experts at Allianze Digital Co. UK are trained to handle this task with accuracy. We make sure that every service, treatment, and diagnosis is coded accurately with the latest coding systems. We can tailor our approach to fit your setup, even if you run a busy private clinic or a community healthcare unit.
+            It entails allocating standard codes to diagnoses and treatments, then employing those codes to create and submit insurance claims. This makes sure that healthcare providers attain precise and timely payments. An error in the billing and coding can result in payment delays and compliance issues. Our coding and billing experts at Allianze Digital are trained to handle this task with accuracy. We make sure that every service, treatment, and diagnosis is coded accurately with the latest coding systems. We can tailor our approach to fit your setup, even if you run a busy private clinic or a community healthcare unit.
           </p>
         </div>
       </div>
@@ -124,7 +124,7 @@
         Why Us
       </span>
       <h2 class="text-3xl md:text-4xl mt-4 font-bold text-white">
-        Why Choose Allianze Digital Co. UK for Healthcare Data Processing?
+        Why Choose Allianze Digital for Healthcare Data Processing?
       </h2>
     </div>
 
@@ -180,7 +180,7 @@
 <section id="seo-content" class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 text-center">   
     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-      Allianze Digital Co. UK - Best Healthcare Data Processing Services in UK
+      Allianze Digital - Best Healthcare Data Processing Services in UK
     </h2>
     <p class="text-gray-600 leading-relaxed text-justify ">
       Managing healthcare data does not have to drain your time or stretch your team thin. With Allianze Digital by your side, you gain a trusted partner who gets the job done right the first time. From accurate EMR entries to clear analytics, our services are designed to support your daily operations while meeting all UK healthcare standards. Whether you are looking for healthcare data analytics services or a reliable healthcare data scanning service, we are here to help. With our commitment to quality, security, and local expertise, Allianze Digital is the name healthcare providers across the UK rely on. Let us take care of the data, so you can take care of the people.
