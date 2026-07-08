@@ -1,7 +1,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="robots" content="noindex, nofollow">
+     <meta name="robots" content="INDEX, FOLLOW">
      <title>{{ $meta_title ?? 'Allianze Digital' }} </title>
      <meta name="description" content="{{ $meta_description ?? '' }}">
      <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
