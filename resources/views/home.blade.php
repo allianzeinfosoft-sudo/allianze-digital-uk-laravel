@@ -116,8 +116,8 @@
   <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-16 items-center text-justify">
     <!-- Text Content -->
     <div>
-      <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-4 py-2 rounded-full">Why
-        Us</span>
+      {{-- <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-4 py-2 rounded-full">Why
+        Us</span> --}}
       <h2 class="text-4xl md:text-5xl font-bold text-custom-blue-deep mt-5 leading-tight">Count on us to <br
             class="hidden md:block" />Deliver More Value</h2>
       <p class="text-custom-text-content mt-5 text-base leading-relaxed">
@@ -152,8 +152,8 @@
     <!-- Header -->
     <div class="flex flex-col md:flex-row md:justify-between md:items-end mb-12 gap-6">
       <div class="max-w-xl">
-        <span
-          class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-4 py-2 rounded-full">Services</span>
+        {{-- <span
+          class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-4 py-2 rounded-full">Services</span> --}}
         <h2 class="text-4xl md:text-5xl font-bold text-custom-blue-deep mt-5 leading-tight">Your Goals, Enhanced<br
             class="hidden md:block" /> With Our Expertise</h2>
       </div>
@@ -431,9 +431,9 @@
   <div class="max-w-7xl mx-auto px-4">
     <!-- Heading (LEFT aligned, ABOVE grid) -->
     <div class="mb-12 max-w-2xl">
-      <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-4 py-2 rounded-full">
+      {{-- <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-4 py-2 rounded-full">
         Case Study
-      </span>
+      </span> --}}
 
       <h2 class="text-4xl md:text-5xl font-bold text-custom-blue-deep mt-5 leading-tight">
         Stronger Results Begin with Our Partnership
@@ -563,8 +563,8 @@
 
       <!-- Left: 4 cols -->
       <div class="col-span-12 md:col-span-4 md:sticky md:top-8">
-        <span
-          class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold text-sm px-4 py-2 rounded-full mb-5 tracking-wide">Testimonials</span>
+        {{-- <span
+          class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold text-sm px-4 py-2 rounded-full mb-5 tracking-wide">Testimonials</span> --}}
         <h2 class="font-display text-4xl lg:text-5xl font-bold text-custom-blue-deep leading-tight mb-6">Hear it
           from<br>Our Clients!</h2>
         <p class="text-custom-text-secondary text-sm leading-relaxed mb-10">Stories from our clients who've experienced
@@ -594,8 +594,8 @@
 <section id="section-contact-form" class="py-16 bg-contain bg-center"
   style="background-image: url('{{ asset('assets/ct-bg1.png') }}');">
   <div class="max-w-3xl mx-auto px-4 text-center">
-    <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-5 py-3 rounded-full">Get in
-      touch!</span>
+    {{-- <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-5 py-3 rounded-full">Get in
+      touch!</span> --}}
     <h2 class="text-5xl font-bold text-white mt-6">Want to be our next happy client?</h2>
     <form class="mt-12 space-y-5">
       <div class="grid sm:grid-cols-2 gap-5">
@@ -620,9 +620,9 @@
   <div class="max-w-7xl mx-auto px-4 text-center">
 
     <!-- Header -->
-    <span
+    {{-- <span
       class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-6 py-3 rounded-full shadow-md">Our
-      Strategies</span>
+      Strategies</span> --}}
     <h2 class="font-display text-4xl md:text-5xl font-bold text-custom-blue-deep mt-6 leading-tight">
       We Fine-Tune Your Success<br class="hidden md:block"> with Proven Strategies
     </h2>
@@ -647,8 +647,8 @@
 <section id="faqx-section" class="bg-white py-16">
   <!-- Header -->
   <div class="max-w-7xl mx-auto ">
-    <span
-      class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-6 py-3 rounded-full shadow-md">FAQ</span>
+    {{-- <span
+      class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-6 py-3 rounded-full shadow-md">FAQ</span> --}}
     <h2 class="font-display text-4xl md:text-5xl font-bold text-custom-blue-deep mt-6 leading-tight">
       Frequently asked question
     </h2>
