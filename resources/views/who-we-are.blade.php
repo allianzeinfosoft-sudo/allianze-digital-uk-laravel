@@ -129,10 +129,10 @@
 <section id="faqy-section" class="bg-white py-16">
   <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
 
-    <span
+    {{-- <span
       class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-6 py-3 rounded-full shadow-md">
       FAQ
-    </span>
+    </span> --}}
 
     <h2 class="font-display text-4xl md:text-5xl font-bold text-custom-blue-deep mt-6">
       Frequently asked question
@@ -270,8 +270,8 @@
 <section id="section-contact-form" class="py-16 bg-contain bg-center"
   style="background-image: url('{{ asset('assets/ct-bg1.png') }}');">
   <div class="max-w-3xl mx-auto px-4 text-center">
-    <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-5 py-3 rounded-full">Get in
-      touch!</span>
+    {{-- <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-5 py-3 rounded-full">Get in
+      touch!</span> --}}
     <h2 class="text-5xl font-bold text-white mt-6">Want to be our next happy client?</h2>
     <form class="mt-12 space-y-5">
       <div class="grid sm:grid-cols-2 gap-5">

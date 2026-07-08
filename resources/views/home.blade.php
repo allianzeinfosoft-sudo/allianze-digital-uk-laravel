@@ -33,9 +33,9 @@
           <span class="text-[#e63329]">Brand Smarter,</span><br />
           and Operate Smoother
         </h2>
-        <p class="mt-6 text-lg md:text-xl text-white/70 leading-relaxed max-w-md">
+        {{-- <p class="mt-6 text-lg md:text-xl text-white/70 leading-relaxed max-w-md">
           Count on us to deliver more value — from data processing to digital transformation.
-        </p>
+        </p> --}}
         <div class="mt-9 flex flex-wrap gap-3">
           <a href="/contact-us"
             class="inline-block bg-[#e63329] text-white px-9 py-4 rounded-2xl text-base font-bold hover:bg-red-700 transition-colors shadow-lg shadow-red-900/30">Join
@@ -68,9 +68,9 @@
           <span class="text-[#e63329]">with Smart</span><br />
           BPO Solutions
         </h2>
-        <p class="mt-6 text-lg md:text-xl text-white/70 leading-relaxed max-w-md">
+        {{-- <p class="mt-6 text-lg md:text-xl text-white/70 leading-relaxed max-w-md">
           From virtual accounting to remote engineering — your operations, expertly handled.
-        </p>
+        </p> --}}
         <div class="mt-9 flex flex-wrap gap-3">
           <a href="/contact-us"
             class="inline-block bg-[#e63329] text-white px-9 py-4 rounded-2xl text-base font-bold hover:bg-red-700 transition-colors shadow-lg shadow-red-900/30">Get
@@ -118,7 +118,8 @@
     <div>
       <span class="inline-block bg-custom-blue-light text-custom-text-primary font-semibold px-4 py-2 rounded-full">Why
         Us</span>
-      <h2 class="text-5xl font-bold text-custom-blue-deep mt-5">Your trusted experts</h2>
+      <h2 class="text-4xl md:text-5xl font-bold text-custom-blue-deep mt-5 leading-tight">Count on us to <br
+            class="hidden md:block" />Deliver More Value</h2>
       <p class="text-custom-text-content mt-5 text-base leading-relaxed">
         At Allianze Digital, we take a grounded, results-driven approach to helping businesses run smarter, present
         better, and grow stronger. From streamlining operations with reliable business process services, to creating
@@ -435,7 +436,7 @@
       </span>
 
       <h2 class="text-4xl md:text-5xl font-bold text-custom-blue-deep mt-5 leading-tight">
-        Your Goals, Enhanced With Our Expertise
+        Stronger Results Begin with Our Partnership
       </h2>
     </div>
     <!-- Grid -->
