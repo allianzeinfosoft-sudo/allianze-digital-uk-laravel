@@ -31,7 +31,7 @@
         <h2 class="text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.05] drop-shadow-lg">
           Build Better,<br />
           <span class="text-[#e63329]">Brand Smarter,</span><br />
-          Operate Smoother
+          <span class="text-nowrap"> Operate Smoother</span>
         </h2>
         {{-- <p class="mt-6 text-lg md:text-xl text-white/70 leading-relaxed max-w-md">
           Count on us to deliver more value — from data processing to digital transformation.
