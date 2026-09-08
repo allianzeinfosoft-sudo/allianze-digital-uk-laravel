@@ -168,55 +168,123 @@
 
     <script>
         // Spawn particles
-    (function () {
-        var pts = [
-            {tx:'-60px',ty:'-80px',dur:'2.8s',delay:'0s'},
-            {tx:'70px', ty:'-90px',dur:'3.2s',delay:'.4s'},
-            {tx:'-80px',ty:'50px', dur:'2.5s',delay:'.8s'},
-            {tx:'90px', ty:'60px', dur:'3.5s',delay:'.2s'},
-            {tx:'30px', ty:'-100px',dur:'2.9s',delay:'1s'},
-            {tx:'-40px',ty:'90px', dur:'3.1s',delay:'.6s'},
-            {tx:'110px',ty:'-30px',dur:'2.7s',delay:'1.3s'},
-            {tx:'-100px',ty:'-10px',dur:'3.3s',delay:'.9s'},
-            {tx:'50px', ty:'110px',dur:'3.0s',delay:'.3s'},
-            {tx:'-70px',ty:'70px', dur:'2.6s',delay:'1.1s'},
-        ];
+        (function() {
+            var pts = [{
+                    tx: '-60px',
+                    ty: '-80px',
+                    dur: '2.8s',
+                    delay: '0s'
+                },
+                {
+                    tx: '70px',
+                    ty: '-90px',
+                    dur: '3.2s',
+                    delay: '.4s'
+                },
+                {
+                    tx: '-80px',
+                    ty: '50px',
+                    dur: '2.5s',
+                    delay: '.8s'
+                },
+                {
+                    tx: '90px',
+                    ty: '60px',
+                    dur: '3.5s',
+                    delay: '.2s'
+                },
+                {
+                    tx: '30px',
+                    ty: '-100px',
+                    dur: '2.9s',
+                    delay: '1s'
+                },
+                {
+                    tx: '-40px',
+                    ty: '90px',
+                    dur: '3.1s',
+                    delay: '.6s'
+                },
+                {
+                    tx: '110px',
+                    ty: '-30px',
+                    dur: '2.7s',
+                    delay: '1.3s'
+                },
+                {
+                    tx: '-100px',
+                    ty: '-10px',
+                    dur: '3.3s',
+                    delay: '.9s'
+                },
+                {
+                    tx: '50px',
+                    ty: '110px',
+                    dur: '3.0s',
+                    delay: '.3s'
+                },
+                {
+                    tx: '-70px',
+                    ty: '70px',
+                    dur: '2.6s',
+                    delay: '1.1s'
+                },
+            ];
 
-        document.addEventListener('DOMContentLoaded', function () {
-            document.body.classList.add('loaded');
-            var wrap = document.getElementById('loader-particles');
+            document.addEventListener('DOMContentLoaded', function() {
+                document.body.classList.add('loaded');
+                var wrap = document.getElementById('loader-particles');
 
-            if (wrap) {
-                pts.forEach(function(p) {
-                    var el = document.createElement('span');
-                    el.className = 'loader-particle';
-                    el.style.cssText =
-                        'left:50%;top:50%;--tx:'+p.tx+
-                        ';--ty:'+p.ty+
-                        ';--dur:'+p.dur+
-                        ';--delay:'+p.delay;
-                    wrap.appendChild(el);
-                });
-            }
+                if (wrap) {
+                    pts.forEach(function(p) {
+                        var el = document.createElement('span');
+                        el.className = 'loader-particle';
+                        el.style.cssText =
+                            'left:50%;top:50%;--tx:' + p.tx +
+                            ';--ty:' + p.ty +
+                            ';--dur:' + p.dur +
+                            ';--delay:' + p.delay;
+                        wrap.appendChild(el);
+                    });
+                }
+            });
+        })();
+
+        // Hide loader and show content after page fully loads
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const loader = document.getElementById('page-loader');
+                const content = document.getElementById('page-content');
+
+                loader.classList.add('hidden');
+
+                setTimeout(function() {
+                    loader.remove();
+                    content.style.display = 'block';
+                }, 500);
+
+            }, 500);
         });
-    })();
-
-    // Hide loader and show content after page fully loads
-    window.addEventListener('load', function () {
-    setTimeout(function () {
-        const loader = document.getElementById('page-loader');
-        const content = document.getElementById('page-content');
-
-        loader.classList.add('hidden');
-
-        setTimeout(function () {
-            loader.remove();
-            content.style.display = 'block';
-        }, 500);
-
-    }, 500);
-});
     </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P6J4ZFBN');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
@@ -270,6 +338,10 @@
     <!-- Footer Section: Multi-column layout with contact info and links -->
 
     <script src="{{ asset('script.js') }}"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6J4ZFBN" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     @stack('scripts')
 </body>
 
