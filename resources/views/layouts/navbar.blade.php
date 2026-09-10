@@ -17,7 +17,7 @@
 
                <!-- SERVICES TRIGGER -->
                <div id="servicesDropdown">
-                    <button id="servicesTrigger" onclick="Menu.toggleServices()"
+                    <button id="servicesTrigger"
                          class="flex items-center gap-1.5 text-custom-blue-navy font-semibold hover:text-custom-red-brand transition-colors focus:outline-none">
                          Services
                          <svg class="w-4 h-4 transition-transform duration-250" id="servicesChevron" viewBox="0 0 20 20"
@@ -256,7 +256,7 @@
                Started</a>
 
           <!-- HAMBURGER -->
-          <button onclick="Menu.toggleMobile()" id="hamburgerBtn"
+          <button id="hamburgerBtn"
                class="md:hidden text-custom-blue-navy focus:outline-none">
                <svg id="hamburgerIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
@@ -279,7 +279,7 @@
 
                <!-- Services accordion -->
                <div>
-                    <button onclick="Menu.toggleMobAcc('acc-data')"
+                    <button>
                          class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
                          <span class="flex items-center gap-2">
                               <svg class="w-3.5 h-3.5 text-custom-red-brand" viewBox="0 0 24 24" fill="none"
@@ -327,7 +327,7 @@
                </div>
 
                <div>
-                    <button onclick="Menu.toggleMobAcc('acc-biz')"
+                    <button>
                          class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
                          <span class="flex items-center gap-2">
                               <svg class="w-3.5 h-3.5 text-custom-red-brand" viewBox="0 0 24 24" fill="none"
@@ -377,7 +377,7 @@
                </div>
 
                <div>
-                    <button onclick="Menu.toggleMobAcc('acc-eng')"
+                    <button>
                          class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
                          <span class="flex items-center gap-2">
                               <svg class="w-3.5 h-3.5 text-custom-red-brand" viewBox="0 0 24 24" fill="none"
@@ -421,7 +421,7 @@
                </div>
 
                <div>
-                    <button onclick="Menu.toggleMobAcc('acc-dig')"
+                    <button>
                          class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
                          <span class="flex items-center gap-2">
                               <svg class="w-3.5 h-3.5 text-custom-red-brand" viewBox="0 0 24 24" fill="none"

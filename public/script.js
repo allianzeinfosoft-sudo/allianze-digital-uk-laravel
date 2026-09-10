@@ -240,6 +240,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
    function init() {
+  const trigger = document.getElementById('servicesTrigger');
+  if (trigger) {
+    trigger.addEventListener('click', e => {
+      e.preventDefault();
+      toggleServices();
+    });
+  }
+
+  const hamburger = document.getElementById('hamburgerBtn');
+  if (hamburger) {
+    hamburger.addEventListener('click', () => toggleMobile());
+  }
+
+  document.querySelectorAll('.mob-acc-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const content = btn.nextElementSibling;
+      if (content) toggleMobAcc(content.id);
+    });
+  });
+
   document.addEventListener('click', e => {
     try {
       if (!e.target.closest('#servicesDropdown') && !e.target.closest('#megaPanel')) {
@@ -257,6 +277,8 @@ document.addEventListener('DOMContentLoaded', () => {
     return { init, toggleServices, toggleMobile, toggleMobAcc };
   })();
 
+  window.Menu = Menu;
+
 
   /* =========================
      🚀 INITIALIZE ALL
@@ -271,7 +293,6 @@ document.addEventListener('DOMContentLoaded', () => {
   ========================= */
   window.HeroSlider = HeroSlider;
   window.ServiceSlider = ServiceSlider;
-  window.Menu = Menu;
 
 });
 
