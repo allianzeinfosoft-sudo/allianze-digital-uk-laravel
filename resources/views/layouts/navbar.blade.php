@@ -42,7 +42,7 @@
                          </div>
 
 <!-- Panel body: 5 columns -->
-                          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 divide-x divide-gray-100 px-0 py-2">
+                          <div class="grid grid-cols-5 divide-x divide-gray-100 px-0 py-2">
 
                               <!-- Col 1: Data Processing -->
                               <div class="px-3 py-3">
