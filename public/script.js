@@ -197,7 +197,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   /* =========================
-     🔷 MENU SYSTEM
+     🔷 MENU SYSTEM  (event delegation: works even if other init code throws,
+        regardless of whether this runs before or after the DOM is ready)
   ========================= */
   const Menu = (() => {
 
@@ -239,54 +240,67 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-   function init() {
-  const trigger = document.getElementById('servicesTrigger');
-  if (trigger) {
-    trigger.addEventListener('click', e => {
-      e.preventDefault();
-      toggleServices();
-    });
-  }
-
-  const hamburger = document.getElementById('hamburgerBtn');
-  if (hamburger) {
-    hamburger.addEventListener('click', () => toggleMobile());
-  }
-
-  document.querySelectorAll('.mob-acc-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const content = btn.nextElementSibling;
-      if (content) toggleMobAcc(content.id);
-    });
-  });
-
-  document.addEventListener('click', e => {
-    try {
-      if (!e.target.closest('#servicesDropdown') && !e.target.closest('#megaPanel')) {
-        document.getElementById('megaPanel')?.classList.remove('open');
-        const chev = document.getElementById('servicesChevron');
-        if (chev) chev.style.transform = '';
-        document.getElementById('servicesTrigger')?.classList.remove('active');
-      }
-    } catch (err) {
-      console.warn('Menu click error:', err);
+    function closeServices() {
+      const panel = document.getElementById('megaPanel');
+      if (panel) panel.classList.remove('open');
+      const chevron = document.getElementById('servicesChevron');
+      if (chevron) chevron.style.transform = '';
+      const trigger = document.getElementById('servicesTrigger');
+      if (trigger) trigger.classList.remove('active');
     }
-  });
-}
 
-    return { init, toggleServices, toggleMobile, toggleMobAcc };
+    function init() {
+      document.addEventListener('click', function (e) {
+        try {
+          const target = e.target && e.target.closest ? e.target : null;
+          if (!target) return;
+
+          if (target.closest('#servicesTrigger')) {
+            e.preventDefault();
+            toggleServices();
+            return;
+          }
+
+          if (target.closest('#hamburgerBtn')) {
+            toggleMobile();
+            return;
+          }
+
+          const accBtn = target.closest('.mob-acc-btn');
+          if (accBtn) {
+            const content = accBtn.nextElementSibling;
+            if (content) toggleMobAcc(content.id);
+            return;
+          }
+
+          if (!target.closest('#servicesDropdown') && !target.closest('#megaPanel')) {
+            closeServices();
+          }
+        } catch (err) {
+          console.warn('Menu click error:', err);
+        }
+      });
+    }
+
+    return { init, toggleServices, toggleMobile, toggleMobAcc, closeServices };
   })();
 
   window.Menu = Menu;
 
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', Menu.init);
+  } else {
+    Menu.init();
+  }
+
 
   /* =========================
-     🚀 INITIALIZE ALL
+     🚀 INITIALIZE SLIDERS (inside DOMContentLoaded)
   ========================= */
-  HeroSlider.init();
-  ServiceSlider.init();
-  Menu.init();
-
+  document.addEventListener('DOMContentLoaded', () => {
+    HeroSlider.init();
+    ServiceSlider.init();
+  });
 
   /* =========================
      🌐 GLOBAL ACCESS (for HTML onclick)

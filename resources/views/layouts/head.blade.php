@@ -11,7 +11,7 @@
      <link rel="dns-prefetch" href="https://www.googletagmanager.com">
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
      <link rel="preload" href="{{ asset('assets/logo-black.png') }}" as="image">
-     <link href="{{ asset('dist/output.css') }}" rel="stylesheet">
-     <link href="{{ asset('dist/custom.css') }}" rel="stylesheet">
+     <link href="{{ asset('dist/output.css') }}?v={{ filemtime(public_path('dist/output.css')) }}" rel="stylesheet">
+     <link href="{{ asset('dist/custom.css') }}?v={{ filemtime(public_path('dist/custom.css')) }}" rel="stylesheet">
      @stack('css')
 </head>
