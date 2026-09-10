@@ -1,3 +1,9 @@
+@php
+    $fileVersion = function ($path) {
+        $file = public_path($path);
+        return (is_file($file)) ? '?v=' . filemtime($file) : '';
+    };
+@endphp
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +17,7 @@
      <link rel="dns-prefetch" href="https://www.googletagmanager.com">
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
      <link rel="preload" href="{{ asset('assets/logo-black.png') }}" as="image">
-     <link href="{{ asset('dist/output.css') }}?v={{ filemtime(public_path('dist/output.css')) }}" rel="stylesheet">
-     <link href="{{ asset('dist/custom.css') }}?v={{ filemtime(public_path('dist/custom.css')) }}" rel="stylesheet">
+     <link href="{{ asset('dist/output.css') }}{{ $fileVersion('dist/output.css') }}" rel="stylesheet">
+     <link href="{{ asset('dist/custom.css') }}{{ $fileVersion('dist/custom.css') }}" rel="stylesheet">
      @stack('css')
 </head>

@@ -328,7 +328,8 @@
 
 
     <!-- Footer Section: Multi-column layout with contact info and links -->
-    <script defer src="{{ asset('script.js') }}?v={{ filemtime(public_path('script.js')) }}"></script>
+    @php $scriptv = is_file(public_path('script.js')) ? '?v=' . filemtime(public_path('script.js')) : ''; @endphp
+    <script defer src="{{ asset('script.js') }}{{ $scriptv }}"></script>
     @stack('scripts')
 </body>
 
