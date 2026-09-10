@@ -330,6 +330,88 @@
     <!-- Footer Section: Multi-column layout with contact info and links -->
     @php $scriptv = is_file(public_path('script.js')) ? '?v=' . filemtime(public_path('script.js')) : ''; @endphp
     <script defer src="{{ asset('script.js') }}{{ $scriptv }}"></script>
+    <script>
+        (function () {
+            if (window.__adMenuFallback) return;
+            window.__adMenuFallback = true;
+
+            document.addEventListener('click', function (e) {
+                try {
+                    if (e.__menuHandled) return;
+
+                    var t = e.target && e.target.closest ? e.target : null;
+                    if (!t) return;
+
+                    var trigger = t.closest('#servicesTrigger');
+                    var hamburger = t.closest('#hamburgerBtn');
+                    var accBtn = t.closest('.mob-acc-btn');
+                    var inline = trigger || hamburger || accBtn;
+                    if (inline && inline.hasAttribute && inline.hasAttribute('onclick')) return;
+
+                    e.__menuHandled = true;
+
+                    if (trigger) {
+                        e.preventDefault();
+                        toggleServices();
+                        return;
+                    }
+                    if (hamburger) {
+                        toggleMobile();
+                        return;
+                    }
+                    if (accBtn) {
+                        toggleMobAcc(accBtn.nextElementSibling ? accBtn.nextElementSibling.id : '');
+                        return;
+                    }
+                    if (!t.closest('#servicesDropdown') && !t.closest('#megaPanel')) closeServices();
+                } catch (err) {}
+
+                function toggleServices() {
+                    var panel = document.getElementById('megaPanel');
+                    if (!panel) return;
+                    var isOpen = panel.classList.contains('open');
+                    panel.classList.toggle('open');
+                    var chevron = document.getElementById('servicesChevron');
+                    if (chevron) chevron.style.transform = isOpen ? '' : 'rotate(180deg)';
+                    var triggerEl = document.getElementById('servicesTrigger');
+                    if (triggerEl) triggerEl.classList.toggle('active', !isOpen);
+                }
+
+                function toggleMobile() {
+                    var mm = document.getElementById('mobileMenu');
+                    if (mm) mm.classList.toggle('hidden');
+                    var hi = document.getElementById('hamburgerIcon');
+                    var ci = document.getElementById('closeIcon');
+                    if (hi) hi.classList.toggle('hidden');
+                    if (ci) ci.classList.toggle('hidden');
+                }
+
+                function toggleMobAcc(id) {
+                    var content = document.getElementById(id);
+                    if (!content) return;
+                    var isOpen = content.classList.contains('open');
+                    var openEls = document.querySelectorAll('.mob-acc-content.open');
+                    for (var i = 0; i < openEls.length; i++) {
+                        openEls[i].classList.remove('open');
+                        if (openEls[i].previousElementSibling) openEls[i].previousElementSibling.classList.remove('open');
+                    }
+                    if (!isOpen) {
+                        content.classList.add('open');
+                        if (content.previousElementSibling) content.previousElementSibling.classList.add('open');
+                    }
+                }
+
+                function closeServices() {
+                    var panel = document.getElementById('megaPanel');
+                    if (panel) panel.classList.remove('open');
+                    var chevron = document.getElementById('servicesChevron');
+                    if (chevron) chevron.style.transform = '';
+                    var triggerEl = document.getElementById('servicesTrigger');
+                    if (triggerEl) triggerEl.classList.remove('active');
+                }
+            });
+        })();
+    </script>
     @stack('scripts')
 </body>
 

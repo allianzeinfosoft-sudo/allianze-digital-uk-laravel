@@ -252,21 +252,33 @@ document.addEventListener('DOMContentLoaded', () => {
     function init() {
       document.addEventListener('click', function (e) {
         try {
+          if (e.__menuHandled) return;
+
           const target = e.target && e.target.closest ? e.target : null;
           if (!target) return;
 
-          if (target.closest('#servicesTrigger')) {
+          const trigger = target.closest('#servicesTrigger');
+          const hamburger = target.closest('#hamburgerBtn');
+          const accBtn = target.closest('.mob-acc-btn');
+
+          // If the clicked element still carries an inline onclick attribute
+          // (older navbar markup), let that inline handler do the work.
+          const inline = trigger || hamburger || accBtn;
+          if (inline && inline.hasAttribute && inline.hasAttribute('onclick')) return;
+
+          e.__menuHandled = true;
+
+          if (trigger) {
             e.preventDefault();
             toggleServices();
             return;
           }
 
-          if (target.closest('#hamburgerBtn')) {
+          if (hamburger) {
             toggleMobile();
             return;
           }
 
-          const accBtn = target.closest('.mob-acc-btn');
           if (accBtn) {
             const content = accBtn.nextElementSibling;
             if (content) toggleMobAcc(content.id);
