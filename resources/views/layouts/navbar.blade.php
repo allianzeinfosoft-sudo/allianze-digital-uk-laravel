@@ -338,8 +338,7 @@
 
                <!-- Services accordion -->
                <div>
-                    <button>
-                         class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
+                    <button class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
                          <span class="flex items-center gap-2">
                               <svg class="w-3.5 h-3.5 text-custom-red-brand" viewBox="0 0 24 24" fill="none"
                                    stroke="currentColor" stroke-width="2">
@@ -386,8 +385,7 @@
                </div>
 
                <div>
-                    <button>
-                         class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
+                    <button class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
                          <span class="flex items-center gap-2">
                               <svg class="w-3.5 h-3.5 text-custom-red-brand" viewBox="0 0 24 24" fill="none"
                                    stroke="currentColor" stroke-width="2">
@@ -436,8 +434,7 @@
                </div>
 
                <div>
-                    <button>
-                         class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
+                    <button class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
                          <span class="flex items-center gap-2">
                               <svg class="w-3.5 h-3.5 text-custom-red-brand" viewBox="0 0 24 24" fill="none"
                                    stroke="currentColor" stroke-width="2">
@@ -480,8 +477,7 @@
                </div>
 
                <div>
-                    <button>
-                         class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
+                    <button class="mob-acc-btn w-full flex items-center justify-between px-5 py-3 text-sm font-semibold text-custom-blue-navy hover:bg-gray-50 transition-all">
                          <span class="flex items-center gap-2">
                               <svg class="w-3.5 h-3.5 text-custom-red-brand" viewBox="0 0 24 24" fill="none"
                                    stroke="currentColor" stroke-width="2">
