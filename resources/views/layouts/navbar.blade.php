@@ -31,7 +31,7 @@
 
                <!-- ===== MEGA PANEL ===== -->
                <div id="megaPanel"
-                    class="mega-wrap absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 w-[920px] bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden">
+                    class="mega-wrap absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 xl:left-1/2 xl:right-auto xl:-translate-x-1/2 w-[min(920px,90vw)] bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden">
 
                          <!-- Panel header -->
                          <div
@@ -41,8 +41,8 @@
                               </div>
                          </div>
 
-                         <!-- Panel body: 4 columns -->
-                         <div class="grid grid-cols-5 divide-x divide-gray-100 px-0 py-2">
+<!-- Panel body: 5 columns -->
+                          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 divide-x divide-gray-100 px-0 py-2">
 
                               <!-- Col 1: Data Processing -->
                               <div class="px-3 py-3">
