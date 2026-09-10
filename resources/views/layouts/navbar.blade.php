@@ -1,3 +1,62 @@
+<style>
+    /* Belt-and-braces: keeps the mega panel looking identical even if the
+       compiled public/dist/output.css on the server is stale (missing
+       grid-cols-5 / divide-x). Same values Tailwind would generate. */
+    #megaPanel {
+        position: absolute;
+        top: calc(100% + 14px);
+        z-index: 50;
+        width: min(920px, 90vw);
+        background: #ffffff;
+        border-radius: 1rem;
+        border: 1px solid #f3f4f6;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @media (min-width: 768px) and (max-width: 1279.98px) {
+        #megaPanel { left: auto; right: 0; transform: none; }
+    }
+    @media (min-width: 1280px) {
+        #megaPanel { left: 50%; right: auto; transform: translateX(-50%); }
+    }
+    #megaPanel .mega-panel-grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+    #megaPanel .mega-panel-grid > * + * {
+        border-left: 1px solid #f3f4f6;
+    }
+    #megaPanel .mega-panel-grid > div {
+        padding: 0.75rem;
+    }
+    #megaPanel .mega-panel-grid p {
+        display: flex;
+        align-items: center;
+        gap: 0.375rem;
+        margin-bottom: 0.75rem;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #9ca3af;
+    }
+    #megaPanel .mega-panel-grid a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.375rem 0.5rem;
+        font-size: 0.78rem;
+        color: #4b5563;
+        border-radius: 0.375rem;
+        text-decoration: none;
+    }
+    #megaPanel .mega-panel-grid a:hover {
+        color: #e90101;
+        background: #fef2f2;
+    }
+</style>
 <header class="{{ request()->routeIs('home') ? 'absolute' : '' }} top-0 left-0 right-0 z-20 p-4">
      <div
           class="max-w-7xl mx-auto bg-white/60 backdrop-blur-sm rounded-lg flex justify-between items-center p-3 relative">
@@ -42,7 +101,7 @@
                          </div>
 
 <!-- Panel body: 5 columns -->
-                          <div class="grid grid-cols-5 divide-x divide-gray-100 px-0 py-2">
+                          <div class="mega-panel-grid grid grid-cols-5 divide-x divide-gray-100 px-0 py-2">
 
                               <!-- Col 1: Data Processing -->
                               <div class="px-3 py-3">
