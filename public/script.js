@@ -364,7 +364,7 @@ document.addEventListener('DOMContentLoaded', () => {
       card.className = [
         'flex-none bg-white rounded-2xl border border-gray-200 shadow-sm p-7',
         'flex flex-col hover:shadow-lg transition-shadow duration-300 pointer-events-none',
-        vis === 1 ? 'w-full' : 'w-[calc(50%-12px)]'
+        vis === 1 ? 'w-full' : 'w-[calc(60%-12px)]'
       ].join(' ');
       card.innerHTML = `
         <p class="text-5xl leading-none text-custom-blue-light font-serif mb-2 select-none">"</p>
