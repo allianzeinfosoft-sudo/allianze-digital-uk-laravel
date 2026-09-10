@@ -31,7 +31,7 @@
       <!-- Image Side -->
       <div class="relative">
         <div class="rounded-3xl overflow-hidden shadow-xl">
-          <img src="{{ asset('assets/image-edit.jpg') }}" alt="Audit Calculation" class="w-full h-auto object-cover">
+          <img loading="lazy" src="{{ asset('assets/image-edit.jpg') }}" alt="Audit Calculation" class="w-full h-auto object-cover">
         </div>
         <!-- Decorative blue shape inferred from design style -->
         <div class="absolute -z-10 top-4 -left-4 w-full h-full bg-blue-50 rounded-3xl"></div>
@@ -62,7 +62,7 @@
       <!-- Card 1 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Image Retouching.jpg') }}" alt="Image Retouching" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Image Retouching.jpg') }}" alt="Image Retouching" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Image Retouching</h3>
@@ -75,7 +75,7 @@
       <!-- Card 2 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Colour Correction Services.png') }}" alt="Colour Correction Services" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Colour Correction Services.png') }}" alt="Colour Correction Services" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Colour Correction Services</h3>
@@ -88,7 +88,7 @@
       <!-- Card 3 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/background removal.png') }}" alt="Image Background Removal Service" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/background removal.png') }}" alt="Image Background Removal Service" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Image Background Removal Service</h3>
@@ -101,7 +101,7 @@
       <!-- Card 4 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/E-commerce Product Editing.jpg') }}" alt="E-commerce Product Editing" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/E-commerce Product Editing.jpg') }}" alt="E-commerce Product Editing" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">E-commerce Product Editing</h3>
@@ -114,7 +114,7 @@
       <!-- Card 5 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Clipping Path Services.jpg') }}" alt="Clipping Path Services" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Clipping Path Services.jpg') }}" alt="Clipping Path Services" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Clipping Path Services</h3>
@@ -127,7 +127,7 @@
       <!-- Card 6 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="assets/masking.jpg" alt="Masking" class="w-full h-full object-cover">
+          <img loading="lazy" src="assets/masking.jpg" alt="Masking" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Masking</h3>
@@ -140,7 +140,7 @@
       <!-- Card 7 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Image Enhancement Services.jpg') }}" alt="Image Enhancement Services" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Image Enhancement Services.jpg') }}" alt="Image Enhancement Services" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Image Enhancement Services</h3>
@@ -153,7 +153,7 @@
       <!-- Card 8 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Photo Manipulation Services.jpg') }}" alt="Photo Manipulation Services" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Photo Manipulation Services.jpg') }}" alt="Photo Manipulation Services" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Photo Manipulation Services</h3>
@@ -166,7 +166,7 @@
       <!-- Card 9 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Image Restoration Service.jpg') }}" alt="Image Restoration Service" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Image Restoration Service.jpg') }}" alt="Image Restoration Service" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Image Restoration Service</h3>
@@ -179,7 +179,7 @@
       <!-- Card 10 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Real Estate Image Enhancement.jpg') }}" alt="Real Estate Image Enhancement" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Real Estate Image Enhancement.jpg') }}" alt="Real Estate Image Enhancement" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Real Estate Image Enhancement</h3>
@@ -192,7 +192,7 @@
       <!-- Card 11 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Virtual Staging.jpg') }}" alt="Virtual Staging" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Virtual Staging.jpg') }}" alt="Virtual Staging" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Virtual Staging</h3>
@@ -205,7 +205,7 @@
       <!-- Card 12 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Portrait Services.jpg') }}" alt="Portrait Services" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Portrait Services.jpg') }}" alt="Portrait Services" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Portrait Services</h3>

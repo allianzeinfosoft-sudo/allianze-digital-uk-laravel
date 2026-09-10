@@ -31,7 +31,7 @@
       <!-- Image Side -->
       <div class="relative">
         <div class="rounded-3xl overflow-hidden shadow-xl">
-          <img src="{{ asset('assets/web-development.jpg') }}" alt="Audit Calculation" class="w-full h-auto object-cover">
+          <img loading="lazy" src="{{ asset('assets/web-development.jpg') }}" alt="Audit Calculation" class="w-full h-auto object-cover">
         </div>
         <!-- Decorative blue shape inferred from design style -->
         <div class="absolute -z-10 top-4 -left-4 w-full h-full bg-blue-50 rounded-3xl"></div>
@@ -62,7 +62,7 @@
       <!-- Card 1 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Content Management Service.jpg') }}" alt="Content Management Service" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Content Management Service.jpg') }}" alt="Content Management Service" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Content Management Service</h3>
@@ -75,7 +75,7 @@
       <!-- Card 2 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Corporate Website Development Service.jpg') }}" alt="Corporate Website Development Service" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Corporate Website Development Service.jpg') }}" alt="Corporate Website Development Service" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Corporate Website Development Service</h3>
@@ -88,7 +88,7 @@
       <!-- Card 3 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="assets/Dynamic Website Development Service.jpg" alt="Dynamic Website Development Service" class="w-full h-full object-cover">
+          <img loading="lazy" src="assets/Dynamic Website Development Service.jpg" alt="Dynamic Website Development Service" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Dynamic Website Development Service</h3>
@@ -101,7 +101,7 @@
       <!-- Card 4 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="assets/E-commerce Website Development Service.jpg" alt="E-commerce Website Development Service" class="w-full h-full object-cover">
+          <img loading="lazy" src="assets/E-commerce Website Development Service.jpg" alt="E-commerce Website Development Service" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">E-commerce Website Development Service</h3>

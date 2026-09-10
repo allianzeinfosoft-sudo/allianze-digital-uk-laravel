@@ -27,6 +27,11 @@ module.exports = {
         'custom-orange': '#e04700',
         'custom-footer-bg': '#00002d',
         'custom-footer-icon': '#3e484e',
+        'brand-red': '#e63329',
+        'brand-orange': '#d95f00',
+        'brand-blue': '#2e3393',
+        'brand-dark': '#0f172a',
+        'brand-light': '#f8fafc',
       },
 
       fontFamily: {

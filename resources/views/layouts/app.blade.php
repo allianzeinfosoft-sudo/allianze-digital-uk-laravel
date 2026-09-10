@@ -250,20 +250,19 @@
             });
         })();
 
-        // Hide loader and show content after page fully loads
-        window.addEventListener('load', function() {
+        // Show content once DOM is ready (don't wait for all images)
+        document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
-                const loader = document.getElementById('page-loader');
-                const content = document.getElementById('page-content');
+                var loader = document.getElementById('page-loader');
+                var content = document.getElementById('page-content');
 
-                loader.classList.add('hidden');
+                if (loader) loader.classList.add('hidden');
+                if (content) content.style.display = 'block';
 
                 setTimeout(function() {
-                    loader.remove();
-                    content.style.display = 'block';
-                }, 500);
-
-            }, 500);
+                    if (loader) loader.remove();
+                }, 600);
+            }, 300);
         });
     </script>
 
@@ -329,7 +328,7 @@
 
 
     <!-- Footer Section: Multi-column layout with contact info and links -->
-    <script src="{{ asset('script.js') }}"></script>
+    <script defer src="{{ asset('script.js') }}"></script>
     @stack('scripts')
 </body>
 

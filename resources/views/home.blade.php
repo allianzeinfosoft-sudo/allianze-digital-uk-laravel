@@ -14,7 +14,7 @@
   <!-- ── SLIDE 1 ── -->
   <div class="slide active" id="slide-0">
     <!-- BG image -->
-    <img src="{{ asset('assets/slider-1.webp') }}" alt="allianze uk" class="absolute inset-0 w-full h-full image-fit" />
+    <img src="{{ asset('assets/slider-1.webp') }}" alt="allianze uk" class="absolute inset-0 w-full h-full image-fit" fetchpriority="high" />
     <!-- Gradient overlay -->
     <div class="absolute inset-0"
       style="background: linear-gradient(100deg, #0a122859 0%, #00000066 55%, rgb(0 0 0 / 15%) 100%)"></div>
@@ -49,7 +49,7 @@
   <div class="slide" id="slide-1">
     <!-- BG image -->
     <img src="{{ asset('assets/slider-2.jpg') }}" alt="allianze digital office"
-      class="absolute inset-0 w-full h-full object-cover" />
+      class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
     <!-- Gradient overlay (slightly different angle for variety) -->
     <div class="absolute inset-0"
       style="background: linear-gradient(100deg, #0a122859 0%, #00000066 55%, rgb(0 0 0 / 15%) 100%)"></div>
@@ -141,7 +141,7 @@
     <!-- Image Content -->
     <div class="relative">
       <img src="{{ asset('assets/why-allianze.png') }}" alt="London Big Ben at sunset"
-        class="rounded-3xl w-full h-auto">
+        class="rounded-3xl w-full h-auto" loading="lazy">
     </div>
   </div>
 </section>
@@ -190,7 +190,7 @@
         <div class="service-card bg-custom-blue-dark text-white p-7 rounded-2xl shadow-xl">
           <div class="w-full h-64 rounded-2xl border-2 border-white/20 mb-8 overflow-hidden">
             <img src="{{ asset('assets/business-process.jpg') }}" alt="Business Process Services"
-              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
           </div>
           <h3 class="text-2xl font-bold">Business Process Services</h3>
           <p class="mt-4 text-sm leading-relaxed text-white/65 text-justify">We believe that cutting expenses is not
@@ -208,7 +208,7 @@
         <div class="service-card bg-custom-blue-dark text-white p-7 rounded-2xl shadow-xl">
           <div class="w-full h-64 rounded-2xl border-2 border-white/20 mb-8 overflow-hidden">
             <img src="{{ asset('assets/digital-marketing.jpg') }}" alt="Digital Marketing"
-              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
           </div>
           <h3 class="text-2xl font-bold">Digital Marketing</h3>
           <p class="mt-4 text-sm leading-relaxed text-white/65 text-justify">Allianze Digital offers unique and
@@ -225,8 +225,8 @@
         <!-- Card 3 -->
         <div class="service-card bg-custom-blue-dark text-white p-7 rounded-2xl shadow-xl">
           <div class="w-full h-64 rounded-2xl border-2 border-white/20 mb-8 overflow-hidden">
-            <img src="assets/image-edit.jpg" alt="Engineering Services"
-              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+            <img src="{{ asset('assets/image-edit.jpg') }}" alt="Engineering Services"
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
           </div>
 
           <h3 class="text-2xl font-bold">Image Editing</h3>
@@ -245,7 +245,7 @@
         <div class="service-card bg-custom-blue-dark text-white p-7 rounded-2xl shadow-xl">
           <div class="w-full h-64 rounded-2xl border-2 border-white/20 mb-8 overflow-hidden">
             <img src="{{ asset('assets/it development.jpg') }}" alt="Virtual Accounting"
-              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
           </div>
           <h3 class="text-2xl font-bold">IT Development Service</h3>
           <p class="mt-4 text-sm leading-relaxed text-white/65">The digital infrastructure of a company should
@@ -446,7 +446,7 @@
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <!-- Image -->
       <img src="{{ asset('assets/10b4850e81ace3328e83810fc1c20407658c1d8d.png') }}" alt="Man working on documents"
-        class="rounded-3xl w-full h-full object-cover">
+        class="rounded-3xl w-full h-full object-cover" loading="lazy">
       <!-- Accordion -->
       <div>
         <div class="space-y-4">

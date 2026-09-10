@@ -3,7 +3,7 @@
      <!-- Image -->
      <div class="h-44 overflow-hidden">
      <img src="{{ $post['_embedded']['wp:featuredmedia'][0]['source_url'] ?? '' }}"
-          class="w-full h-full object-cover">
+          class="w-full h-full object-cover" loading="lazy">
      </div>
 
      <!-- Content -->

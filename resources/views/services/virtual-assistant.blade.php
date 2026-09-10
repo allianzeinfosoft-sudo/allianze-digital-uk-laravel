@@ -31,7 +31,7 @@
       <!-- Image Side -->
       <div class="relative">
         <div class="rounded-3xl overflow-hidden shadow-xl">
-          <img src="{{ asset('assets/virtual-assistant.jpg') }}" alt="Audit Calculation" class="w-full h-auto object-cover">
+          <img loading="lazy" src="{{ asset('assets/virtual-assistant.jpg') }}" alt="Audit Calculation" class="w-full h-auto object-cover">
         </div>
         <!-- Decorative blue shape inferred from design style -->
         <div class="absolute -z-10 top-4 -left-4 w-full h-full bg-blue-50 rounded-3xl"></div>
@@ -63,7 +63,7 @@
       <!-- Card 1 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Customer Support Services.jpg') }}" alt="Internal Audit Preparation" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Customer Support Services.jpg') }}" alt="Internal Audit Preparation" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Customer Support Services</h3>
@@ -76,7 +76,7 @@
       <!-- Card 2 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Email Support Service.jpg') }}" alt="Document Management" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Email Support Service.jpg') }}" alt="Document Management" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Email Support Service</h3>
@@ -89,7 +89,7 @@
       <!-- Card 3 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Chat Support Services.jpg') }}" alt="Document Management" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Chat Support Services.jpg') }}" alt="Document Management" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Chat Support Services</h3>
@@ -102,7 +102,7 @@
       <!-- Card 4 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Call Centre Support Service.jpg') }}" alt="Document Management" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Call Centre Support Service.jpg') }}" alt="Document Management" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Call Centre Support Service</h3>

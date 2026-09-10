@@ -31,7 +31,7 @@
       <!-- Image Side -->
       <div class="relative">
         <div class="rounded-3xl overflow-hidden shadow-xl">
-          <img src="{{ asset('assets/SEO.jpg') }}" alt="Audit Calculation" class="w-full h-auto object-cover">
+          <img loading="lazy" src="{{ asset('assets/SEO.jpg') }}" alt="Audit Calculation" class="w-full h-auto object-cover">
         </div>
         <!-- Decorative blue shape inferred from design style -->
         <div class="absolute -z-10 top-4 -left-4 w-full h-full bg-blue-50 rounded-3xl"></div>
@@ -64,7 +64,7 @@
       <!-- Card 1 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/SEO Audit Service.jpg') }}" alt="SEO Audit Service" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/SEO Audit Service.jpg') }}" alt="SEO Audit Service" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">SEO Audit Service</h3>
@@ -77,7 +77,7 @@
       <!-- Card 2 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Competitor Analysis.jpg') }}" alt="Competitor Analysis" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Competitor Analysis.jpg') }}" alt="Competitor Analysis" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Competitor Analysis</h3>
@@ -90,7 +90,7 @@
       <!-- Card 3 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Keyword Research.jpg') }}" alt="Keyword Research" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Keyword Research.jpg') }}" alt="Keyword Research" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Keyword Research</h3>
@@ -103,7 +103,7 @@
       <!-- Card 4 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/On-Page SEO.jpg') }}" alt="On-Page SEO" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/On-Page SEO.jpg') }}" alt="On-Page SEO" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">On-Page SEO</h3>
@@ -116,7 +116,7 @@
       <!-- Card 5 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="{{ asset('assets/Off-Page SEO.jpg') }}" alt="Off-Page SEO" class="w-full h-full object-cover">
+          <img loading="lazy" src="{{ asset('assets/Off-Page SEO.jpg') }}" alt="Off-Page SEO" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Off-Page SEO</h3>
@@ -129,7 +129,7 @@
       <!-- Card 6 -->
       <div class="bg-blue-50/50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-black-300">
         <div class="h-64 overflow-hidden">
-          <img src="assets/Local SEO.jpg" alt="Local SEO" class="w-full h-full object-cover">
+          <img loading="lazy" src="assets/Local SEO.jpg" alt="Local SEO" class="w-full h-full object-cover">
         </div>
         <div class="md:p-8 p-6">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Local SEO</h3>

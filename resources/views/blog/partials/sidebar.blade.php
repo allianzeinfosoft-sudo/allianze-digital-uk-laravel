@@ -39,7 +39,7 @@
       @foreach($recent as $post)
       <a href="{{ route('blog.show', $post['slug']) }}" class="flex gap-3 group">
         <div class="w-14 h-14 rounded-lg shrink-0 overflow-hidden bg-gray-100">
-          <img src="{{ $post['_embedded']['wp:featuredmedia'][0]['source_url'] ?? asset('assets/blog-placeholder.jpg') }}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+          <img src="{{ $post['_embedded']['wp:featuredmedia'][0]['source_url'] ?? asset('assets/blog-placeholder.jpg') }}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" loading="lazy">
         </div>
         <div>
           <p class="text-xs font-semibold text-custom-text-primary group-hover:text-[#d80000] transition-colors leading-snug line-clamp-2">

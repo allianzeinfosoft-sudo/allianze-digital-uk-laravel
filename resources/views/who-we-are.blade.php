@@ -38,7 +38,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <!-- Left Column: Image -->
       <div class="relative rounded-[30px] overflow-hidden shadow-xl">
-        <img src="{{ asset('assets/about-allianze.png') }}" alt="Working on laptop" class="w-full h-auto object-cover">
+        <img loading="lazy" src="{{ asset('assets/about-allianze.png') }}" alt="Working on laptop" class="w-full h-auto object-cover">
       </div>
 
       <!-- Right Column: Text Content -->
@@ -69,7 +69,7 @@
 <section class="relative py-24 w-full overflow-hidden">
   <!-- Background -->
   <div class="absolute inset-0 w-full h-full">
-    <img src="{{ asset('assets/abt-cta.jpg') }}" alt="Connect Background"
+    <img loading="lazy" src="{{ asset('assets/abt-cta.jpg') }}" alt="Connect Background"
       class="w-full h-full object-cover object-bottom">
     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
   </div>
@@ -94,7 +94,7 @@
       <!-- Mission Card -->
       <div class="bg-white rounded-[20px] shadow-lg overflow-hidden flex flex-col sm:flex-row h-full">
         <div class="sm:w-1/2 h-64 sm:h-auto relative">
-          <img src="{{ asset('assets/694c5cb5e4001d90e8ccb4b36f466a9cf94b59ce.png') }}" alt="Mission"
+          <img loading="lazy" src="{{ asset('assets/694c5cb5e4001d90e8ccb4b36f466a9cf94b59ce.png') }}" alt="Mission"
             class="w-full h-full object-cover object-right">
         </div>
         <div class="sm:w-1/2 p-8 flex flex-col justify-center">
@@ -109,7 +109,7 @@
       <!-- Vision Card -->
       <div class="bg-white rounded-[20px] shadow-lg overflow-hidden flex flex-col sm:flex-row h-full">
         <div class="sm:w-1/2 h-64 sm:h-auto relative">
-          <img src="{{ asset('assets/9f804d3eee6919f1e97cc342dfc30e5b7f19b751.png') }}" alt="Vision"
+          <img loading="lazy" src="{{ asset('assets/9f804d3eee6919f1e97cc342dfc30e5b7f19b751.png') }}" alt="Vision"
             class="w-full h-full object-cover">
         </div>
         <div class="sm:w-1/2 p-8 flex flex-col justify-center">
