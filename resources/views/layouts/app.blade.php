@@ -329,6 +329,7 @@
 
 
     <!-- Footer Section: Multi-column layout with contact info and links -->
+    <script src="{{ asset('script.js') }}"></script>
     @stack('scripts')
 </body>
 

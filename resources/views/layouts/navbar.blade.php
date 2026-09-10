@@ -10,13 +10,13 @@
           </div>
 
           <!-- DESKTOP NAV -->
-          <nav class="hidden md:flex items-center space-x-8">
+           <nav class="hidden md:flex items-center space-x-8 relative">
                <a href="{{ route('who-we-are') }}"
                     class="text-custom-blue-navy font-semibold hover:text-custom-red-brand transition-colors">Who We
                     Are</a>
 
                <!-- SERVICES TRIGGER -->
-               <div class="relative" id="servicesDropdown">
+               <div id="servicesDropdown">
                     <button id="servicesTrigger" onclick="Menu.toggleServices()"
                          class="flex items-center gap-1.5 text-custom-blue-navy font-semibold hover:text-custom-red-brand transition-colors focus:outline-none">
                          Services
@@ -27,10 +27,11 @@
                                    clip-rule="evenodd" />
                          </svg>
                     </button>
+               </div>
 
-                    <!-- ===== MEGA PANEL ===== -->
-                    <div id="megaPanel"
-                         class="mega-wrap absolute top-[calc(100%+14px)] left-[30%] -translate-x-1/2 w-[920px] bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden">
+               <!-- ===== MEGA PANEL ===== -->
+               <div id="megaPanel"
+                    class="mega-wrap absolute top-[calc(100%+14px)] left-1/2 -translate-x-1/2 w-[920px] bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden">
 
                          <!-- Panel header -->
                          <div
@@ -241,7 +242,6 @@
                          </div>
                     </div>
                     <!-- /mega panel -->
-               </div>
 
 
                <a href="{{ route('blog') }}"

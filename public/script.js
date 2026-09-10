@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
    function init() {
   document.addEventListener('click', e => {
     try {
-      if (!e.target.closest('#servicesDropdown')) {
+      if (!e.target.closest('#servicesDropdown') && !e.target.closest('#megaPanel')) {
         document.getElementById('megaPanel')?.classList.remove('open');
         const chev = document.getElementById('servicesChevron');
         if (chev) chev.style.transform = '';
